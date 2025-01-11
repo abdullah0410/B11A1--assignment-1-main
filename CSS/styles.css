@@ -1,0 +1,436 @@
+.body{
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+    margin: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+}
+.nav-head{
+    color: rgb(14, 14, 14);
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+}
+.nav-btn{
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 6px;
+border: 3px solid rgb(0, 106, 80);
+background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 50px 70px 50px 70px;
+}
+.banner-one{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-two{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-three{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+color: aliceblue;
+padding: 5px;
+}
+.piller{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.piller-line{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.piller-type{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.innovation{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+.innovation-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.innovation-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vision-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.future{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 10px;
+}
+.digital-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.digital-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.digital{
+    border-radius: 10px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 15px;
+    margin: 5px;
+}
+.green{
+    border-radius: 10px;
+    background:  rgb(198, 228, 214);
+    padding: 15px;
+    margin: 5px;
+}
+.mordern{
+    border-radius: 10px;
+    background:  rgb(247, 235, 207);
+    padding: 15px;
+    margin: 5px;
+}
+.digital-btn{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 10px;
+    color: white;
+    border: rgb(84, 144, 245);
+}
+.green-btn{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 10px;
+    color: white;
+    border: rgb(9, 161, 92);
+}
+.modern-btn{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 10px;
+    color: white;
+    border: rgb(255, 194, 57);
+}
+.yunus{
+    padding: 15px;
+    border-radius: 10px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat; 
+    background-color: white;
+}
+.yunus-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.yunus-name{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.yunus-pr{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.recent{
+    margin: 15px;
+    gap: 20px;
+}
+.recent-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.recent-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.satelite{
+    display: flex;
+    gap: 25px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.satelite-box{
+    margin: 10px;
+}
+.satelite-img{
+    margin: 10px;
+    border-radius: 10px;
+}
+.satelite-write{
+    margin: 20px;
+}
+.satelite-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+}
+.satelite-date{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.satelite-time{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.satelite-tim{
+    display: flex;
+}
+.satelite-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.satelite-btn{
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    background: rgb(0, 106, 80);
+    border: rgb(0, 106, 80);
+}
+.donate{
+    margin: 20px;
+}
+.donate-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-amount{
+    display: flex;
+    justify-content: space-between;
+}
+.donate-btn{
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    cursor: pointer;        
+    transition: all 0.3s ease;
+}
+.donate-btn:hover {
+    background-color: #C6E4D6; 
+    transform: scale(1.1);     
+}
+.donate-submit {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 10px;            
+    margin: 20px;          
+}
+.donate-input{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.donate-submitbtn{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: white;
+padding: 15px;
+}
+.newsletter{
+   margin-top: 50px;
+   margin-bottom: 40px;
+   margin-left: 15px;
+   margin-right: 15px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 15px;
+}
+.newsletter-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.newsletter-pr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.newsletter-in {
+    display: flex;             
+    flex-direction: row;        
+    justify-content: center;     
+    align-items: center;       
+    gap: 0px;  
+    margin: 50px;                
+   
+}
+
+.newsletter-input {
+    padding-left: 20px;          
+    padding-right: 20px;       
+    padding-top: 10px;           
+    padding-bottom: 10px;      
+    border-radius: 8px 0px 0px 8px;        
+    border: 1px solid #ccc;     
+    font-size: 16px;             
+    width: 100%;               
+    box-sizing: border-box;     
+}
+
+.newsletter-btn {
+    padding: 7px;               
+    border-radius: 0px 8px 8px 0px; 
+    background: rgb(0, 106, 80); 
+    color: white;                       
+}
+.newsletter-prpr{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.foooter{
+    background-color: white;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+}
+.foooter-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+.list-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
