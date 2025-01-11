@@ -428,9 +428,4 @@ line-height: 38px;
 letter-spacing: 0%;
 text-align: center;
 }
-.list-ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-}
+
