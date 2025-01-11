@@ -20,7 +20,13 @@ border-radius: 6px;
 border: 3px solid rgb(0, 106, 80);
 background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
-
+.banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 50px 70px 50px 70px;
+}
 .banner-one{
     color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
